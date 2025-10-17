@@ -1,10 +1,11 @@
 import HeroSlider from "./HeroSlider";
+import Link from "next/link";
 
 const heroHeight = "h-[30vh] md:h-[45vh] lg:h-[50vh] xl:h-[45vh] 2xl:h-[60vh]";
 
 function PromoCard({ image, title, cta = "Shop Now", href = "/products" }) {
   return (
-    <a href={href} className={`relative block group overflow-hidden rounded-2xl h-full bg-gradient-to-br from-white to-gray-50/30 border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300`}>
+    <Link href={href} className={`relative block group overflow-hidden rounded-2xl h-full bg-gradient-to-br from-white to-gray-50/30 border border-gray-100/50 shadow-lg hover:shadow-xl transition-all duration-300`}>
       <div className="absolute inset-0">
         <img src={image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
       </div>
@@ -15,7 +16,7 @@ function PromoCard({ image, title, cta = "Shop Now", href = "/products" }) {
           <i className="fa-solid fa-arrow-right text-xs" />
         </span>
       </div>
-    </a>
+    </Link>
   );
 }
 
