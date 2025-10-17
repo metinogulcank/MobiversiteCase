@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="w-full bg-gray-900 text-white">
@@ -8,7 +10,7 @@ export default function Footer() {
               <img src="/mobilogo.png" alt="MobiShop" className="h-16 w-auto " />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Türkiye'nin en büyük online alışveriş platformu. En kaliteli ürünleri en uygun fiyatlarla sunuyoruz.
+              Türkiye&apos;nin en büyük online alışveriş platformu. En kaliteli ürünleri en uygun fiyatlarla sunuyoruz.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -29,22 +31,22 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Hızlı Linkler</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/products" className="text-gray-400 hover:text-white transition-colors">Tüm Ürünler</a></li>
-              <li><a href="/products?category=kadın" className="text-gray-400 hover:text-white transition-colors">Kadın</a></li>
-              <li><a href="/products?category=erkek" className="text-gray-400 hover:text-white transition-colors">Erkek</a></li>
-              <li><a href="/products?category=çocuk" className="text-gray-400 hover:text-white transition-colors">Çocuk</a></li>
-              <li><a href="/products?sale=true" className="text-gray-400 hover:text-white transition-colors">İndirimli Ürünler</a></li>
+              <li><Link href="/products" className="text-gray-400 hover:text-white transition-colors">Tüm Ürünler</Link></li>
+              <li><Link href="/products?category=kadın" className="text-gray-400 hover:text-white transition-colors">Kadın</Link></li>
+              <li><Link href="/products?category=erkek" className="text-gray-400 hover:text-white transition-colors">Erkek</Link></li>
+              <li><Link href="/products?category=çocuk" className="text-gray-400 hover:text-white transition-colors">Çocuk</Link></li>
+              <li><Link href="/products?sale=true" className="text-gray-400 hover:text-white transition-colors">İndirimli Ürünler</Link></li>
             </ul>
           </div>
           
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Müşteri Hizmetleri</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/contact" className="text-gray-400 hover:text-white transition-colors">İletişim</a></li>
-              <li><a href="/help" className="text-gray-400 hover:text-white transition-colors">Yardım Merkezi</a></li>
-              <li><a href="/shipping" className="text-gray-400 hover:text-white transition-colors">Kargo Bilgileri</a></li>
-              <li><a href="/returns" className="text-gray-400 hover:text-white transition-colors">İade & Değişim</a></li>
-              <li><a href="/size-guide" className="text-gray-400 hover:text-white transition-colors">Beden Rehberi</a></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">İletişim</Link></li>
+              <li><Link href="/help" className="text-gray-400 hover:text-white transition-colors">Yardım Merkezi</Link></li>
+              <li><Link href="/shipping" className="text-gray-400 hover:text-white transition-colors">Kargo Bilgileri</Link></li>
+              <li><Link href="/returns" className="text-gray-400 hover:text-white transition-colors">İade & Değişim</Link></li>
+              <li><Link href="/size-guide" className="text-gray-400 hover:text-white transition-colors">Beden Rehberi</Link></li>
             </ul>
           </div>
           
@@ -76,9 +78,9 @@ export default function Footer() {
               © 2025 MobiShop. Tüm hakları saklıdır.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Gizlilik Politikası</a>
-              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">Kullanım Şartları</a>
-              <a href="/cookies" className="text-gray-400 hover:text-white transition-colors">Çerez Politikası</a>
+              <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">Gizlilik Politikası</Link>
+              <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">Kullanım Şartları</Link>
+              <Link href="/cookies" className="text-gray-400 hover:text-white transition-colors">Çerez Politikası</Link>
             </div>
           </div>
         </div>

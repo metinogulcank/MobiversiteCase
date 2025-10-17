@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import { fetchProduct, fetchProducts, fetchProductReviews } from "../../../lib/api";
 import RecCard from "../../../components/RecCard";
 import { notFound } from "next/navigation";
@@ -30,9 +31,9 @@ export default async function ProductDetail({ params }) {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50/30">
       <div className="px-4 md:px-6">
         <nav className="mx-auto max-w-7xl py-4 text-sm text-neutral-500">
-          <a href="/" className="hover:underline">Anasayfa</a>
+          <Link href="/" className="hover:underline">Anasayfa</Link>
           <span className="mx-2">/</span>
-          <a href="/products" className="hover:underline">Ürünler</a>
+          <Link href="/products" className="hover:underline">Ürünler</Link>
           <span className="mx-2">/</span>
           <span className="text-neutral-800">{product.title}</span>
         </nav>
