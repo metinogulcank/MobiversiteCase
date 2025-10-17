@@ -5,10 +5,9 @@ import RecCard from "../../../components/RecCard";
 import { notFound } from "next/navigation";
 import AddActions from "./product-actions";
 
-export async function generateStaticParams() {
-  const items = await fetchProducts();
-  return items.map((p) => ({ id: String(p.id) }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const dynamicParams = true;
 
 export default async function ProductDetail({ params }) {
   const { id } = await params;
