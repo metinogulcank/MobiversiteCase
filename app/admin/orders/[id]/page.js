@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { fetchOrder, updateOrder } from "../../../../lib/api";
 
@@ -12,7 +12,7 @@ export default function AdminOrderDetailPage() {
   const [order, setOrder] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const load = async () => {
+  const load = useCallback(async () => {
     if (!orderId) return;
     setLoading(true);
     try {
@@ -21,9 +21,9 @@ export default function AdminOrderDetailPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [orderId]);
 
-  useEffect(() => { load(); }, [orderId]);
+  useEffect(() => { load(); }, [load]);
 
   const cancelOrder = async () => {
     if (!order) return;

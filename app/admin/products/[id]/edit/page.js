@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { fetchProduct, updateProduct, fetchCatalog } from "../../../../../lib/api";
 
@@ -15,20 +15,23 @@ export default function AdminEditProductPage() {
   const [openGroups, setOpenGroups] = useState([]);
   const [categorySearch, setCategorySearch] = useState("");
 
-  useEffect(() => {
-    async function load() {
-      try {
-        const [p, c] = await Promise.all([fetchProduct(id), fetchCatalog()]);
-        setProduct(p);
-        setCatalog({ categories: c?.categories || {}, colors: c?.colors || [], sizes: c?.sizes || [] });
-      } catch (e) {
-        setProduct(null);
-      } finally {
-        setLoading(false);
-      }
+  const load = useCallback(async () => {
+    try {
+      const [p, c] = await Promise.all([fetchProduct(id), fetchCatalog()]);
+      setProduct(p);
+      setCatalog({ categories: c?.categories || {}, colors: c?.colors || [], sizes: c?.sizes || [] });
+    } catch (e) {
+      setProduct(null);
+    } finally {
+      setLoading(false);
     }
-    load();
   }, [id]);
+
+  useEffect(() => {
+    if (!id) return;
+    setLoading(true);
+    load();
+  }, [id, load]);
 
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
