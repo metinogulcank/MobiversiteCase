@@ -2,69 +2,6 @@
 
 MobiShop; modern, ölçeklenebilir ve kullanıcı deneyimi odaklı bir e-ticaret uygulamasıdır. Proje; Next.js (App Router), Tailwind CSS, json-server tabanlı mock API ve Stripe test entegrasyonu ile geliştirilmiştir. Aşağıdaki bölümlerde, sistemin modülleri ve işlevleri kurumsal bir dille özetlenmiştir.
 
-## İçindekiler
-- Özellik Özeti
-- Kurulum ve Çalıştırma
-- Mimari Genel Bakış
-- Modüller ve İşlevler
-  - Admin
-  - Ana Sayfa
-  - Ürünler
-  - Ürün Detayı
-  - İstek Listesi
-  - Sepet
-  - Ödeme
-  - Profil
-- Veri Kaynakları ve Entegrasyonlar
-- Teknik Notlar
-
----
-
-## Özellik Özeti
-
-### Admin
-- [x] Dinamik Ürün Ekleme / Düzenleme / Silme
-- [x] Dinamik Kategori Ekleme / Düzenleme / Silme
-- [x] Dinamik Sipariş Yönetimi (durum akışı: Sipariş alındı → Sipariş hazırlanıyor → Kargoya verildi → Teslim edildi, iptal işlemleri)
-- [x] Dashboard (Toplam gelir, toplam sipariş, kullanıcı sayısı, toplam ürün sayısı; son siparişler ve en çok satanlar özetleri)
-
-### Ana Sayfa
-- [x] Dinamik Header (Admin panel üzerinden yönetilen kategorileri otomatik olarak görüntüler)
-- [x] En Son Eklenen Ürünler (son 10 ürün, responsive carousel)
-- [x] Öneriler (kullanıcının gezdiği ürün kategorisi/cinsiyetine göre öneriler)
-
-### Ürünler Sayfası
-- [x] Dinamik kategori kontrolü (hiyerarşik yapı desteği)
-- [x] Kategori, Renk, Beden, Fiyat aralığı bazlı arama/filtreleme
-- [x] Seçilen özelliğe göre sıralama (yeniden eskiye, fiyata göre, satışa göre vb.)
-- [x] Mobil/Tablet’te açılır “FilterBar” çekmecesi, Desktop’ta sabit kenar çubuğu
-
-### Ürün Detayı
-- [x] Öneriler: Önce aynı kategori, yetmezse üst kategori, yine yetmezse en yeniler ile 10 ürüne tamamlanır
-- [x] Dinamik yorumlar (review görselleri lightbox ile)
-- [x] Dinamik değerlendirme (ortalama puan ve yorum adedi)
-
-### İstek Listesi
-- [x] Veritabanı üzerinden kullanıcının favorilerini sorgulama
-- [x] Kullanıcının eklediği fiyattan daha ucuza düşmüşse indirim göstergesi
-
-### Sepet
-- [x] Seçili ürünlerin fiyatlarını toplama
-- [x] 300₺ üzeri kargo ücretsiz
-- [x] 300₺ altı siparişlerde kargo ücreti ekleme (79₺)
-- [x] Variant (renk/beden) bilinçli sepet kalemleri, mobil uyumlu modern arayüz
-
-### Ödeme Ekranı
-- [x] Stripe ile ödeme simülasyonu (3D Secure benzeri akış)
-- [x] Başarılı yanıt sonrası sipariş oluşturma ve ürün satış adedini arttırma
-
-### Profil
-- [x] Kullanıcı bilgilerinin güncellenmesi (e-posta değişiminde bağlı verilerin senkronizasyonu)
-- [x] Satın alınan ürünler için değerlendirme ve fotoğraflı yorum
-- [x] Şifre güncelleme simülasyonu
-
----
-
 ## Kurulum ve Çalıştırma
 
 1. Bağımlılıkların kurulumu:
