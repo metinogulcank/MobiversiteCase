@@ -1,0 +1,950 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Uzun Kollu Kapşonlu Sweatshirt",
+      "price": 499,
+      "description": "Yumuşak pamuklu, günlük kullanım için tişört.",
+      "category": "erkek giyim kazak erkek giyim sweatshirt",
+      "image": "/products/1/_n.png",
+      "colors": [
+        "#223c6c",
+        "#e07a5f",
+        "#3d405b"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "createdAt": "2025-10-01T10:00:00.000Z",
+      "sales": 120,
+      "gallery": [
+        "/products/1/_n.png",
+        "/products/1/sol.png",
+        "/products/1/sag.png",
+        "/products/1/arka.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Polo Yaka Kısa Kollu Tişört",
+      "price": 237,
+      "description": "Polo Yaka Kısa Kollu Tişört",
+      "category": "kadın ayakkabı erkek giyim tişört kadın giyim bluz",
+      "image": "/products/2/_n.png",
+      "colors": [
+        "#1b998b",
+        "#e9c46a",
+        "#264653"
+      ],
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "createdAt": "2025-09-28T12:00:00.000Z",
+      "sales": 340,
+      "gallery": [
+        "/products/2/_n.png",
+        "/products/2/sol.png",
+        "/products/2/sag.png",
+        "/products/2/arka.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bisiklet Yaka Tişört",
+      "price": 210,
+      "description": "Bisiklet Yaka Tişört",
+      "category": "kadın aksesuar erkek giyim tişört kadın giyim bluz",
+      "image": "/products/3/_n.png",
+      "colors": [
+        "#6d6875",
+        "#b5838d",
+        "#ffb4a2"
+      ],
+      "sizes": [
+        "Tek Beden"
+      ],
+      "createdAt": "2025-09-20T09:30:00.000Z",
+      "sales": 85,
+      "gallery": [
+        "/products/3/_n.png",
+        "/products/3/sol.png",
+        "/products/3/sag.png",
+        "/products/3/arka.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bisiklet Yaka Tişört",
+      "price": 210,
+      "description": "Bisiklet Yaka Tişört",
+      "category": "erkek elektronik erkek giyim tişört",
+      "image": "/products/4/_n.png",
+      "colors": [
+        "#8ecae6",
+        "#023047",
+        "#6c757d",
+        "#000000",
+        "#ffffff",
+        "#223c6c"
+      ],
+      "sizes": [
+        "XL",
+        "S",
+        "L",
+        "XS",
+        "XXL"
+      ],
+      "createdAt": "2025-09-25T15:00:00.000Z",
+      "sales": 410,
+      "gallery": [
+        "/products/4/_n.png",
+        "/products/4/sol.png",
+        "/products/4/sag.png",
+        "/products/4/arka.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Boğazı Fermuarlı Uzun Kollu",
+      "price": 349.9,
+      "description": "Boğazı Fermuarlı Uzun Kollu",
+      "category": "giyim erkek giyim kazak erkek giyim sweatshirt",
+      "image": "/products/5/D8CAD71C-44DF-450D-9A8F-5F298254446A.png",
+      "colors": [
+        "#223c6c",
+        "#adb5bd",
+        "#6c757d",
+        "#ffffff",
+        "#2a9d8f",
+        "#e76f51"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XS",
+        "XXL"
+      ],
+      "createdAt": "2025-10-05T08:00:00.000Z",
+      "sales": 250,
+      "gallery": [
+        "/products/5/D8CAD71C-44DF-450D-9A8F-5F298254446A.png",
+        "/products/5/9332EC7F-C010-4416-9C92-E8ECD4CD0D2C.png",
+        "/products/5/807CDC69-F656-48B1-AB0D-CA01CC5B52B5.png",
+        "/products/5/77AFBC60-5FD8-4B1E-AF7B-FFB7F8E88F91.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Spor Şort",
+      "price": 179.9,
+      "description": "Nefes alabilir kumaşlı spor şort.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-6/600/500",
+      "colors": [
+        "#e76f51",
+        "#2a9d8f",
+        "#264653"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "createdAt": "2025-10-10T09:00:00.000Z",
+      "sales": 95
+    },
+    {
+      "id": 7,
+      "title": "Güneş Gözlüğü",
+      "price": 499,
+      "description": "UV korumalı unisex güneş gözlüğü.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-7/600/500",
+      "colors": [
+        "#000000",
+        "#6d6875",
+        "#bfc0c0"
+      ],
+      "createdAt": "2025-08-18T11:00:00.000Z",
+      "sales": 60
+    },
+    {
+      "id": 8,
+      "title": "Akıllı Saat",
+      "price": 2299,
+      "description": "Spor ve sağlık takibi özellikli akıllı saat.",
+      "category": "elektronik",
+      "image": "https://picsum.photos/seed/mobi-8/600/500",
+      "colors": [
+        "#457b9d",
+        "#1d3557",
+        "#a8dadc"
+      ],
+      "createdAt": "2025-10-12T14:20:00.000Z",
+      "sales": 520
+    },
+    {
+      "id": 9,
+      "title": "Bluetooth Hoparlör",
+      "price": 649,
+      "description": "Taşınabilir, suya dayanıklı hoparlör.",
+      "category": "elektronik",
+      "image": "https://picsum.photos/seed/mobi-9/600/500",
+      "colors": [
+        "#2b2d42",
+        "#8d99ae",
+        "#edf2f4"
+      ],
+      "createdAt": "2025-09-30T16:45:00.000Z",
+      "sales": 305
+    },
+    {
+      "id": 10,
+      "title": "Deri Kemer",
+      "price": 199,
+      "description": "%100 deriden şık kemer.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-10/600/500",
+      "colors": [
+        "#6f4e37",
+        "#4a2c2a",
+        "#b08968"
+      ],
+      "createdAt": "2025-07-22T10:10:00.000Z",
+      "sales": 140
+    },
+    {
+      "id": 11,
+      "title": "Sırt Çantası",
+      "price": 399,
+      "description": "Günlük kullanım için hafif sırt çantası.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-11/600/500",
+      "colors": [
+        "#264653",
+        "#2a9d8f",
+        "#e9c46a"
+      ],
+      "createdAt": "2025-09-05T09:05:00.000Z",
+      "sales": 175
+    },
+    {
+      "id": 12,
+      "title": "Koşu Tişörtü",
+      "price": 159.9,
+      "description": "Ter tutmayan, nefes alan koşu tişörtü.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-12/600/500",
+      "colors": [
+        "#223c6c",
+        "#ff6b6b",
+        "#51cf66"
+      ],
+      "createdAt": "2025-10-14T08:00:00.000Z",
+      "sales": 220
+    },
+    {
+      "id": 13,
+      "title": "Outdoor Bot",
+      "price": 1499,
+      "description": "Su geçirmez outdoor yürüyüş botu.",
+      "category": "ayakkabı",
+      "image": "https://picsum.photos/seed/mobi-13/600/500",
+      "colors": [
+        "#3d405b",
+        "#b5838d",
+        "#ffb4a2"
+      ],
+      "createdAt": "2025-10-11T07:30:00.000Z",
+      "sales": 130
+    },
+    {
+      "id": 14,
+      "title": "Spor Çanta",
+      "price": 279,
+      "description": "Geniş hacimli antrenman çantası.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-14/600/500",
+      "colors": [
+        "#1d3557",
+        "#457b9d",
+        "#a8dadc"
+      ],
+      "createdAt": "2025-09-12T12:30:00.000Z",
+      "sales": 90
+    },
+    {
+      "id": 15,
+      "title": "Kulak Üstü Kulaklık",
+      "price": 899,
+      "description": "Konforlu pedlere sahip kulak üstü kulaklık.",
+      "category": "elektronik",
+      "image": "https://picsum.photos/seed/mobi-15/600/500",
+      "colors": [
+        "#000000",
+        "#6c757d",
+        "#adb5bd"
+      ],
+      "createdAt": "2025-08-29T13:00:00.000Z",
+      "sales": 260
+    },
+    {
+      "id": 16,
+      "title": "Keten Gömlek",
+      "price": 349,
+      "description": "Yazlık nefes alan keten gömlek.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-16/600/500",
+      "colors": [
+        "#e9c46a",
+        "#2a9d8f",
+        "#264653"
+      ],
+      "createdAt": "2025-09-18T18:00:00.000Z",
+      "sales": 115
+    },
+    {
+      "id": 17,
+      "title": "Kanvas Pantolon",
+      "price": 429,
+      "description": "Rahat kesim kanvas pantolon.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-17/600/500",
+      "colors": [
+        "#6d6875",
+        "#bfc0c0",
+        "#495057"
+      ],
+      "createdAt": "2025-09-22T17:10:00.000Z",
+      "sales": 160
+    },
+    {
+      "id": 18,
+      "title": "Koşu Taytı",
+      "price": 219,
+      "description": "Esnek ve rahat koşu taytı.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-18/600/500",
+      "colors": [
+        "#223c6c",
+        "#ff6b6b",
+        "#845ef7"
+      ],
+      "createdAt": "2025-10-13T09:40:00.000Z",
+      "sales": 200
+    },
+    {
+      "id": 19,
+      "title": "Sneaker",
+      "price": 899,
+      "description": "Günlük kullanım için şık sneaker.",
+      "category": "ayakkabı",
+      "image": "https://picsum.photos/seed/mobi-19/600/500",
+      "colors": [
+        "#212529",
+        "#868e96",
+        "#e9ecef"
+      ],
+      "createdAt": "2025-10-09T06:15:00.000Z",
+      "sales": 375
+    },
+    {
+      "id": 20,
+      "title": "Şapka",
+      "price": 129,
+      "description": "Ayarlanabilir unisex şapka.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-20/600/500",
+      "colors": [
+        "#223c6c",
+        "#e9c46a",
+        "#2a9d8f"
+      ],
+      "createdAt": "2025-09-01T08:25:00.000Z",
+      "sales": 80
+    },
+    {
+      "id": 21,
+      "title": "Mont",
+      "price": 1599,
+      "description": "Su ve rüzgar geçirmez kışlık mont.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-21/600/500",
+      "colors": [
+        "#1d3557",
+        "#457b9d",
+        "#a8dadc"
+      ],
+      "createdAt": "2025-10-07T10:50:00.000Z",
+      "sales": 145
+    },
+    {
+      "id": 22,
+      "title": "Polar Ceket",
+      "price": 499,
+      "description": "Yumuşak ve sıcak tutan polar ceket.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-22/600/500",
+      "colors": [
+        "#6c757d",
+        "#adb5bd",
+        "#dee2e6"
+      ],
+      "createdAt": "2025-09-26T19:00:00.000Z",
+      "sales": 110
+    },
+    {
+      "id": 23,
+      "title": "Bel Çantası",
+      "price": 189,
+      "description": "Günlük kullanım için bel çantası.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-23/600/500",
+      "colors": [
+        "#3d405b",
+        "#81b29a",
+        "#e07a5f"
+      ],
+      "createdAt": "2025-09-15T07:45:00.000Z",
+      "sales": 70
+    },
+    {
+      "id": 24,
+      "title": "Spor Sütyeni",
+      "price": 229,
+      "description": "Destekleyici spor sütyeni.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-24/600/500",
+      "colors": [
+        "#ff6b6b",
+        "#f06595",
+        "#845ef7"
+      ],
+      "createdAt": "2025-10-03T11:35:00.000Z",
+      "sales": 155
+    },
+    {
+      "id": 25,
+      "title": "Koşu Çorabı (3'lü)",
+      "price": 89.9,
+      "description": "Nefes alan, ter tutmayan çorap seti.",
+      "category": "giyim",
+      "image": "https://picsum.photos/seed/mobi-25/600/500",
+      "colors": [
+        "#ffffff",
+        "#adb5bd",
+        "#343a40"
+      ],
+      "createdAt": "2025-08-10T10:00:00.000Z",
+      "sales": 60
+    },
+    {
+      "id": 26,
+      "title": "Spor Matı",
+      "price": 259,
+      "description": "Kaymaz yüzeyli egzersiz matı.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-26/600/500",
+      "colors": [
+        "#2a9d8f",
+        "#e9c46a",
+        "#e76f51"
+      ],
+      "createdAt": "2025-09-08T16:00:00.000Z",
+      "sales": 90
+    },
+    {
+      "id": 27,
+      "title": "Kablosuz Şarj Cihazı",
+      "price": 349,
+      "description": "Hızlı şarj destekli kablosuz şarj cihazı.",
+      "category": "elektronik",
+      "image": "https://picsum.photos/seed/mobi-27/600/500",
+      "colors": [
+        "#212529",
+        "#6c757d",
+        "#adb5bd"
+      ],
+      "createdAt": "2025-09-14T12:12:00.000Z",
+      "sales": 220
+    },
+    {
+      "id": 28,
+      "title": "Notebook Sırt Çantası",
+      "price": 599,
+      "description": "Laptop bölmeli sırt çantası.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-28/600/500",
+      "colors": [
+        "#223c6c",
+        "#6c757d",
+        "#adb5bd"
+      ],
+      "createdAt": "2025-10-02T09:20:00.000Z",
+      "sales": 135
+    },
+    {
+      "id": 29,
+      "title": "Koşu Bandı (Mini)",
+      "price": 3999,
+      "description": "Ev için kompakt koşu bandı.",
+      "category": "elektronik",
+      "image": "https://picsum.photos/seed/mobi-29/600/500",
+      "colors": [
+        "#495057",
+        "#adb5bd",
+        "#ced4da"
+      ],
+      "createdAt": "2025-10-06T06:40:00.000Z",
+      "sales": 40
+    },
+    {
+      "id": 30,
+      "title": "Yoga Blok",
+      "price": 129,
+      "description": "Denge ve esneme için yoga blok.",
+      "category": "aksesuar",
+      "image": "https://picsum.photos/seed/mobi-30/600/500",
+      "colors": [
+        "#e9c46a",
+        "#2a9d8f",
+        "#223c6c"
+      ],
+      "createdAt": "2025-09-03T08:08:00.000Z",
+      "sales": 55
+    },
+    {
+      "title": "Uzun Kollu Polo Yaka Kazak",
+      "price": 499,
+      "description": "<p><b>Zamansız Şıklık: Uzun Kollu Polo Yaka Tişört</b></p><p><b><br></b></p><p>Klasik polo yaka tasarımını uzun kollu konforuyla birleştiren bu parça, gardırobunuzun vazgeçilmezi olmaya aday. Yumuşak dokusu ve vücuda oturan zarif kalıbı ile gün boyu rahatlık sunarken, göz alıcı mavi tonuyla enerjinizi yansıtır. Jean pantolonlardan kumaş eteklere kadar her kombininize zahmetsizce uyum sağlar.</p><p><br></p><p><b>Özellikler:</b></p><ol><li>Klasik polo yaka</li><li>Uzun kollu tasarım</li><li>Nefes alan, konforlu kumaş</li><li>Modern ve rahat kalıp</li></ol>",
+      "category": "kadın giyim bluz erkek giyim kazak",
+      "colors": [
+        "#223c6c",
+        "#ffffff",
+        "#2a9d8f",
+        "#e76f51",
+        "#6c757d",
+        "#000000"
+      ],
+      "image": "blob:http://localhost:3000/dddbc14b-3b74-42c2-9b89-df8d43b14503",
+      "gallery": [
+        "blob:http://localhost:3000/dddbc14b-3b74-42c2-9b89-df8d43b14503",
+        "blob:http://localhost:3000/cb8c88d5-ac37-41f2-a595-779b96c3b5a8",
+        "blob:http://localhost:3000/6424a1be-0292-4b4a-95f8-52f8ea1fa3f0",
+        "blob:http://localhost:3000/446c44b4-d4f2-49f4-aedf-ad707f680065"
+      ],
+      "sizes": [],
+      "createdAt": "2025-10-16T12:40:29.471Z",
+      "sales": 0,
+      "id": 31
+    },
+    {
+      "title": "Uzun Kollu Polo Yaka Kazak",
+      "price": 499,
+      "description": "<p><b>Zamansız Şıklık: Uzun Kollu Polo Yaka Tişört</b></p><p><b><br></b></p><p>Klasik polo yaka tasarımını uzun kollu konforuyla birleştiren bu parça, gardırobunuzun vazgeçilmezi olmaya aday. Yumuşak dokusu ve vücuda oturan zarif kalıbı ile gün boyu rahatlık sunarken, göz alıcı mavi tonuyla enerjinizi yansıtır. Jean pantolonlardan kumaş eteklere kadar her kombininize zahmetsizce uyum sağlar.</p><p><br></p><p><b>Özellikler:</b></p><ul><li><p>Klasik polo yaka</p></li><li><p>Uzun kollu tasarım</p></li><li><p>Nefes alan, konforlu kumaş</p></li><li><p>Modern ve rahat kalıp</p></li></ul>",
+      "category": "kadın giyim bluz erkek giyim gömlek",
+      "colors": [
+        "#223c6c",
+        "#ffffff",
+        "#2a9d8f",
+        "#e76f51",
+        "#6c757d"
+      ],
+      "sizes": [
+        "XS",
+        "L",
+        "XL",
+        "S",
+        "M",
+        "XXL"
+      ],
+      "createdAt": "2025-10-16T12:45:43.160Z",
+      "sales": 0,
+      "id": 32,
+      "image": "/products/32/C5A37140-6446-471D-9CE1-F697557656BA.png",
+      "gallery": [
+        "/products/32/C5A37140-6446-471D-9CE1-F697557656BA.png",
+        "/products/32/C64B1B46-F91F-4D47-95B1-79221FDB1E13.png",
+        "/products/32/F696CDC9-DD61-4BFA-9C28-1031AE563D4A.png",
+        "/products/32/1E852C44-2542-440A-9A85-3DFC029C986F.png"
+      ]
+    },
+    {
+      "title": "Uzun Kollu Gömlek",
+      "price": 599,
+      "description": "<p><b>Gardırobun Temel Taşı: Mükemmel Beyaz Gömlek</b></p><p><b><br></b></p><p>Stilinize güç katacak, zamansız ve çok yönlü bir parça. Bu beyaz gömlek, keskin hatları ve vücuda oturan kalıbıyla size hem profesyonel hem de modern bir görünüm sunar. Yumuşak dokusu ve kusursuz işçiliği ile kendinizi gün boyu özgüvenli ve konforlu hissetmenizi sağlar. Her dolabın olmazsa olmazı bu gömlekle sonsuz kombinasyon yaratın.</p><p><br></p><p><b>Neden Mükemmel?</b></p><ul><li><p><b>Kalıp:</b> Vücut hatlarını ortaya çıkaran zarif kesim.</p></li><li><p><b>Kumaş:</b> Hareket özgürlüğü sunan, nefes alan doku.</p></li><li><p><b>Stil:</b> Hem resmi hem de spor görünümlere anında uyum.</p></li></ul>",
+      "category": "erkek giyim gömlek",
+      "colors": [
+        "#ffffff"
+      ],
+      "sizes": [
+        "XS",
+        "L",
+        "XL",
+        "S"
+      ],
+      "createdAt": "2025-10-16T12:57:13.327Z",
+      "sales": 0,
+      "id": 33,
+      "image": "/products/33/_n.png",
+      "gallery": [
+        "/products/33/_n.png",
+        "/products/33/sol.png",
+        "/products/33/sag.png",
+        "/products/33/arka.png"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "productId": 12,
+          "title": "Koşu Tişörtü",
+          "qty": 1,
+          "price": 159.9
+        },
+        {
+          "productId": 18,
+          "title": "Koşu Taytı",
+          "qty": 1,
+          "price": 219
+        },
+        {
+          "productId": 8,
+          "title": "Akıllı Saat",
+          "qty": 1,
+          "price": 2299
+        }
+      ],
+      "shipping": 0,
+      "total": 2677.9,
+      "address": "Kazım Karabekir Mahallesi Şehit Mehmet Ali Aslan Sokak 48/9 Etimesgut/Ankara",
+      "billingAddress": "Kazım Karabekir Mahallesi Şehit Mehmet Ali Aslan Sokak 48/9 Etimesgut/Ankara",
+      "phone": "5550648180",
+      "fullName": "Metin Oğulcan Koca",
+      "status": "paid",
+      "createdAt": "2025-10-16T18:29:49.456Z",
+      "id": 1
+    },
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "productId": 5,
+          "title": "Boğazı Fermuarlı Uzun Kollu",
+          "qty": 1,
+          "price": 349.9
+        }
+      ],
+      "shipping": 0,
+      "total": 349.9,
+      "address": "Ankara",
+      "billingAddress": "Ankara",
+      "phone": "5550648180",
+      "fullName": "Metin Oğulcan Koca",
+      "status": "İptal edildi",
+      "createdAt": "2025-10-16T18:43:44.784Z",
+      "id": 2,
+      "canceledAt": "2025-10-16T20:16:47.738Z"
+    },
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "productId": 33,
+          "title": "Uzun Kollu Gömlek",
+          "qty": 1,
+          "price": 599
+        },
+        {
+          "productId": 19,
+          "title": "Sneaker",
+          "qty": 1,
+          "price": 899
+        }
+      ],
+      "shipping": 0,
+      "total": 1498,
+      "address": "Ankara",
+      "billingAddress": "Ankara",
+      "phone": "05550648180",
+      "fullName": "Metin Oğulcan Koca",
+      "status": "paid",
+      "createdAt": "2025-10-16T18:50:11.295Z",
+      "id": 3
+    },
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Polo Yaka Kısa Kollu Tişört",
+          "qty": 1,
+          "price": 237,
+          "color": "#e9c46a",
+          "size": "37"
+        }
+      ],
+      "shipping": 79,
+      "total": 316,
+      "address": "asd",
+      "billingAddress": "asd",
+      "phone": "05550648180",
+      "fullName": "Metin Oğulcan Koca",
+      "status": "Teslim Edildi",
+      "createdAt": "2025-10-16T20:03:40.012Z",
+      "id": 4
+    },
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "productId": 32,
+          "title": "Uzun Kollu Polo Yaka Kazak",
+          "qty": 1,
+          "price": 499,
+          "color": "#2a9d8f",
+          "size": "S"
+        }
+      ],
+      "shipping": 0,
+      "total": 499,
+      "address": "asdasd",
+      "billingAddress": "asdasd",
+      "phone": "05550648180",
+      "fullName": "Metin Oğulcan Koca",
+      "status": "Sipariş alındı",
+      "createdAt": "2025-10-17T12:15:33.443Z",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@mobishop.dev",
+      "name": "Demo User"
+    },
+    {
+      "email": "metinogulcank06@gmail.com",
+      "name": "Metin Oğulcan Koca",
+      "phone": "05550648180",
+      "salt": "17c1101f2d01422386188519c9e391fb",
+      "passwordHash": "6cb3f02c2521600d113b4664ac70bef7506c3300b15295fbf0859b06d4aa2d4f",
+      "id": 2
+    }
+  ],
+  "wishlist": [
+    {
+      "productId": 33,
+      "title": "Uzun Kollu Gömlek",
+      "savedPrice": 699,
+      "image": "/products/33/_n.png",
+      "userEmail": "metinogulcank06@gmail.com",
+      "id": 1
+    },
+    {
+      "productId": 32,
+      "title": "Uzun Kollu Polo Yaka Kazak",
+      "savedPrice": 499,
+      "image": "/products/32/C5A37140-6446-471D-9CE1-F697557656BA.png",
+      "userEmail": "metinogulcank06@gmail.com",
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "items": [
+        {
+          "product": {
+            "title": "Uzun Kollu Polo Yaka Kazak",
+            "price": 499,
+            "description": "<p><b>Zamansız Şıklık: Uzun Kollu Polo Yaka Tişört</b></p><p><b><br></b></p><p>Klasik polo yaka tasarımını uzun kollu konforuyla birleştiren bu parça, gardırobunuzun vazgeçilmezi olmaya aday. Yumuşak dokusu ve vücuda oturan zarif kalıbı ile gün boyu rahatlık sunarken, göz alıcı mavi tonuyla enerjinizi yansıtır. Jean pantolonlardan kumaş eteklere kadar her kombininize zahmetsizce uyum sağlar.</p><p><br></p><p><b>Özellikler:</b></p><ul><li><p>Klasik polo yaka</p></li><li><p>Uzun kollu tasarım</p></li><li><p>Nefes alan, konforlu kumaş</p></li><li><p>Modern ve rahat kalıp</p></li></ul>",
+            "category": "kadın giyim bluz erkek giyim gömlek",
+            "colors": [
+              "#223c6c",
+              "#ffffff",
+              "#2a9d8f",
+              "#e76f51",
+              "#6c757d"
+            ],
+            "sizes": [
+              "XS",
+              "L",
+              "XL",
+              "S",
+              "M",
+              "XXL"
+            ],
+            "createdAt": "2025-10-16T12:45:43.160Z",
+            "sales": 0,
+            "id": 32,
+            "image": "/products/32/C5A37140-6446-471D-9CE1-F697557656BA.png",
+            "gallery": [
+              "/products/32/C5A37140-6446-471D-9CE1-F697557656BA.png",
+              "/products/32/C64B1B46-F91F-4D47-95B1-79221FDB1E13.png",
+              "/products/32/F696CDC9-DD61-4BFA-9C28-1031AE563D4A.png",
+              "/products/32/1E852C44-2542-440A-9A85-3DFC029C986F.png"
+            ]
+          },
+          "qty": 1,
+          "color": null,
+          "size": null
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "reviews": [
+    {
+      "userEmail": "metinogulcank06@gmail.com",
+      "productId": 2,
+      "rating": 4,
+      "comment": "Çok iyi",
+      "photos": [
+        "/products/2/D8CAD71C-44DF-450D-9A8F-5F298254446A.png"
+      ],
+      "createdAt": "2025-10-16T20:22:47.019Z",
+      "orderId": 4,
+      "title": "Polo Yaka Kısa Kollu Tişört",
+      "id": 1
+    }
+  ],
+  "catalog": {
+    "categories": {
+      "kadın": {
+        "giyim": [
+          "Elbise",
+          "Etek",
+          "Crop",
+          "Bluz",
+          "Pantolon",
+          "Kaban"
+        ],
+        "ayakkabı": [
+          "Spor Ayakkabı",
+          "Bot",
+          "Topuklu Ayakkabı",
+          "Günlük Ayakkabı"
+        ],
+        "aksesuar": [
+          "Saat",
+          "Yüzük",
+          "Küpe",
+          "Kolye",
+          "Çanta"
+        ]
+      },
+      "erkek": {
+        "giyim": [
+          "Tişört",
+          "Sweatshirt",
+          "Gömlek",
+          "Pantolon",
+          "Kazak",
+          "Mont"
+        ],
+        "ayakkabı": [
+          "Spor Ayakkabı",
+          "Bot",
+          "Krampon",
+          "Günlük Ayakkabı"
+        ],
+        "aksesuar": [
+          "Saat",
+          "Yüzük",
+          "Tesbih",
+          "Kolye",
+          "Cüzdan"
+        ]
+      },
+      "çocuk": {
+        "giyim": [
+          "Tişört",
+          "Sweatshirt",
+          "Eşofman",
+          "Mont"
+        ],
+        "ayakkabı": [
+          "Spor Ayakkabı",
+          "Bot"
+        ],
+        "aksesuar": [
+          "Şapka",
+          "Çanta"
+        ]
+      },
+      "Elektronik": {
+        "Bilgisayar": [
+          "Ekran Kartı"
+        ]
+      }
+    },
+    "colors": [
+      {
+        "label": "Mavi",
+        "value": "#223c6c"
+      },
+      {
+        "label": "Siyah",
+        "value": "#000000"
+      },
+      {
+        "label": "Beyaz",
+        "value": "#ffffff"
+      },
+      {
+        "label": "Kırmızı",
+        "value": "#ff0000"
+      },
+      {
+        "label": "Yeşil",
+        "value": "#2a9d8f"
+      },
+      {
+        "label": "Sarı",
+        "value": "#e9c46a"
+      },
+      {
+        "label": "Turuncu",
+        "value": "#e76f51"
+      },
+      {
+        "label": "Mor",
+        "value": "#845ef7"
+      },
+      {
+        "label": "Gri",
+        "value": "#6c757d"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "Tek Beden"
+    ]
+  }
+}

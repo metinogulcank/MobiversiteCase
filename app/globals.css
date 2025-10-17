@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; 
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -12,15 +12,35 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.campaign-bar {
+  background: #223c6c;
+  color: #ffffff;
+  height: 32px;
+}
+.campaign-ticker {
+  white-space: nowrap;
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker-move 22s linear infinite;
+}
+@keyframes ticker-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.campaign-fade {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.campaign-fade.hidden { opacity: 0; transform: translateY(-4px); }
+.campaign-fade.show { opacity: 1; transform: translateY(0); }
+
+.campaign-slide-viewport { height: 32px; overflow: hidden; }
+.campaign-slide-inner { transition: transform 0.4s ease; }
+.campaign-row { height: 32px; display: grid; place-items: center; }
