@@ -1,5 +1,7 @@
 # MobiShop - Kurumsal Teknik Dokümantasyon
 
+Live Demo: https://mobiversite-case-2qqd-eintehrax-metin-ogulcans-projects.vercel.app?_vercel_share=QcdCTv88MkfMoot5QlTGku6oPCTkhTHn
+
 MobiShop; modern, ölçeklenebilir ve kullanıcı deneyimi odaklı bir e-ticaret uygulamasıdır. Proje; Next.js (App Router), Tailwind CSS, json-server tabanlı mock API ve Stripe test entegrasyonu ile geliştirilmiştir. Aşağıdaki bölümlerde, sistemin modülleri ve işlevleri kurumsal bir dille özetlenmiştir.
 
 ## Kurulum ve Çalıştırma
